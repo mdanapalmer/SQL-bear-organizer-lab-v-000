@@ -14,9 +14,6 @@ def selects_oldest_bear_and_returns_name_and_age
   "SELECT TOP 1 name, age FROM bears ORDER BY age DESC;"
 end
 
-def selects_oldest_bear_and_returns_name_and_age
-end
-
 def select_youngest_bear_and_returns_name_and_age
 end
 
