@@ -22,7 +22,6 @@ describe 'querying the bears table' do
   end
 
   it 'selects the oldest bear and returns their name and age' do
-    puts selects_oldest_bear_and_returns_name_and_age
     expect(@db.execute(selects_oldest_bear_and_returns_name_and_age)).to eq([["Mr. Chocolate", 20]])
   end
 
